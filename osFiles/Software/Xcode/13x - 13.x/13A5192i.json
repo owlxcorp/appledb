@@ -1,0 +1,63 @@
+{
+    "osStr": "Xcode",
+    "version": "13.0 beta 3",
+    "build": "13A5192i",
+    "released": "2021-07-14",
+    "beta": true,
+    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-13-beta-release-notes",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 11",
+        "macOS 12"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "15.0 beta 3",
+            "build": "19A5297f",
+            "beta": true
+        },
+        {
+            "osStr": "macOS",
+            "version": "12.0 beta 3",
+            "build": "21A5284e",
+            "beta": true
+        },
+        {
+            "osStr": "tvOS",
+            "version": "15.0 beta 3",
+            "build": "19J5304f",
+            "beta": true
+        },
+        {
+            "osStr": "watchOS",
+            "version": "8.0 beta 3",
+            "build": "19R5302g",
+            "beta": true
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 11",
+                "macOS 12"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13_beta_3/Xcode_13_beta_3.xip",
+                    "active": false
+                }
+            ],
+            "hashes": {
+                "sha1": "8c1f13f2d76b4beb153b85670dde49640dc08c30"
+            },
+            "size": 10544121868
+        }
+    ]
+}

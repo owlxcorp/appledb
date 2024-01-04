@@ -1,0 +1,31 @@
+{
+    "osStr": "Safari",
+    "version": "14.1.2",
+    "build": "611G34",
+    "released": "2021-07-19",
+    "securityNotes": "https://support.apple.com/HT212606",
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "macOS 10.15"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Safari (macOS)"
+            ],
+            "osMap": [
+                "macOS 10.15"
+            ],
+            "links": [
+                {
+                    "url": "http://swcdn.apple.com/content/downloads/46/17/071-40187-A_J8Y2FGUB4F/e7fribz1mwzdljlm1w8q60n7dbn0nwoa9a/Safari14.1.2CatalinaAuto.pkg",
+                    "active": false
+                }
+            ],
+            "size": 93620479
+        }
+    ]
+}

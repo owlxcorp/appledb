@@ -1,0 +1,58 @@
+{
+    "osStr": "Xcode",
+    "version": "9.0.1",
+    "build": "9A1004",
+    "released": "2017-10-15",
+    "releaseNotes": "https://developer.apple.com/library/content/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html#//apple_ref/doc/uid/TP40001051-CH1-SW922",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.12",
+        "macOS 10.13"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "11.0",
+            "build": "15A372"
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.13",
+            "build": "17A360"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "11.0",
+            "build": "15J380"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "4.0",
+            "build": "15R372"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.12",
+                "macOS 10.13"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_9.0.1/Xcode_9.0.1.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "fe80d3396ff6b91659b4b7888893101dae5b1ad9"
+            },
+            "size": 5442843891
+        }
+    ]
+}

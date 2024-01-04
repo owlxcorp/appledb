@@ -1,0 +1,12 @@
+{
+    "osStr": "Safari",
+    "version": "15.3 beta",
+    "released": "2021-12-16",
+    "beta": true,
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "macOS 11"
+    ]
+}

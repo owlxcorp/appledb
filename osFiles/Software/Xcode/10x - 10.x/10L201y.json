@@ -1,0 +1,62 @@
+{
+    "osStr": "Xcode",
+    "version": "10.0 beta 3",
+    "build": "10L201y",
+    "released": "2018-07-03",
+    "beta": true,
+    "releaseNotes": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_10_Beta_3/Xcode_10_Beta_3_Release_Notes.pdf",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.13",
+        "macOS 10.14"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "12.0 beta 3",
+            "build": "16A5318d",
+            "beta": true
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.14 beta 3",
+            "build": "18A326e",
+            "beta": true
+        },
+        {
+            "osStr": "tvOS",
+            "version": "12.0 beta 3",
+            "build": "16J5313d",
+            "beta": true
+        },
+        {
+            "osStr": "watchOS",
+            "version": "5.0 beta 3",
+            "build": "16R5313d",
+            "beta": true
+        }
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.13",
+                "macOS 10.14"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_10_beta_3/Xcode_10_beta_3.dmg",
+                    "active": false
+                }
+            ],
+            "hashes": {
+                "sha1": "d748ab7852d6b8234e84c70ee0cf52d65ef3b4b0"
+            }
+        }
+    ]
+}

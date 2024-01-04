@@ -1,0 +1,41 @@
+{
+    "osStr": "Xcode",
+    "version": "3.2.5",
+    "build": "10M2423",
+    "released": "2010-11-18",
+    "releaseNotes": "https://developer.apple.com/services-account/download?path=/ios/ios_sdk_4.2__final/readme_xcode_3.2.5_and_ios_4.2.pdf",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "Mac OS X 10.6"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "4.2"
+        }
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "Mac OS X 10.6"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/ios/ios_sdk_4.2__final/xcode_3.2.5_and_ios_sdk_4.2_final.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "0e4b5a959382845a74685b6336ed491b",
+                "sha1": "ff0b976cc991264dc0df571d01881cd39e112c1f"
+            },
+            "size": 3782241266
+        }
+    ]
+}

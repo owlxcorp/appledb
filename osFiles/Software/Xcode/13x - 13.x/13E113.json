@@ -1,0 +1,108 @@
+{
+    "osStr": "Xcode",
+    "version": "13.3",
+    "build": "13E113",
+    "released": "2022-03-14",
+    "createDuplicateEntries": [
+        {
+            "version": "13.3 RC",
+            "uniqueBuild": "13E113-RC",
+            "released": "2022-03-08",
+            "rc": true,
+            "sdks": [
+                {
+                    "osStr": "iOS",
+                    "version": "15.4",
+                    "build": "19E239"
+                },
+                {
+                    "osStr": "macOS",
+                    "version": "12.3",
+                    "build": "21E226"
+                },
+                {
+                    "osStr": "tvOS",
+                    "version": "15.4",
+                    "build": "19L439"
+                },
+                {
+                    "osStr": "watchOS",
+                    "version": "8.5",
+                    "build": "19T241"
+                }
+            ],
+            "sources": [
+                {
+                    "type": "xip",
+                    "deviceMap": [
+                        "Xcode"
+                    ],
+                    "osMap": [
+                        "macOS 12"
+                    ],
+                    "links": [
+                        {
+                            "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.3_Release_Candidate/Xcode_13.3_Release_Candidate.xip",
+                            "active": true
+                        }
+                    ],
+                    "hashes": {
+                        "sha1": "4bb7ffed9abd20ab3e5376122341e0d0e4ea6a92"
+                    },
+                    "size": 10829814724
+                }
+            ]
+        }
+    ],
+    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-13_3-release-notes",
+    "securityNotes": "https://support.apple.com/HT213189",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 12"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "15.4",
+            "build": "19E239"
+        },
+        {
+            "osStr": "macOS",
+            "version": "12.3",
+            "build": "21E226"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "15.4",
+            "build": "19L439"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "8.5",
+            "build": "19T241"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 12"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_13.3/Xcode_13.3.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "4bb7ffed9abd20ab3e5376122341e0d0e4ea6a92"
+            },
+            "size": 10829814724
+        }
+    ]
+}

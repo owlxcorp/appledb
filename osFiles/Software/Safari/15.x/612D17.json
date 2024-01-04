@@ -1,0 +1,31 @@
+{
+    "osStr": "Safari",
+    "version": "15.3",
+    "build": "612D17",
+    "released": "2022-02-10",
+    "securityNotes": "https://support.apple.com/HT213091",
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "macOS 10.15"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Safari (macOS)"
+            ],
+            "osMap": [
+                "macOS 10.15"
+            ],
+            "links": [
+                {
+                    "url": "http://swcdn.apple.com/content/downloads/37/36/002-66034-A_46UFJIIHKN/rm0oq26tnrdrhgeokn8vcfoydrt4zi19an/Safari15.3CatalinaAuto.pkg",
+                    "active": false
+                }
+            ],
+            "size": 92659394
+        }
+    ]
+}

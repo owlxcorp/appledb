@@ -1,0 +1,31 @@
+{
+    "osStr": "Xcode",
+    "version": "7.0 GM",
+    "build": "7A218",
+    "released": "2015-09-09",
+    "rc": true,
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "OS X 10.10",
+        "OS X 10.11"
+    ],
+    "sdks": [
+        {
+            "osStr": "OS X",
+            "version": "10.11",
+            "build": "15A278"
+        },
+        {
+            "osStr": "iOS",
+            "version": "9.0",
+            "build": "13A340"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "2.0",
+            "build": "13S343"
+        }
+    ]
+}

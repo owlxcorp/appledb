@@ -11,5 +11,41 @@
     "deviceMap": [
         "iMac11,2",
         "iMac11,3"
+    ],
+    "sources": [
+        {
+            "type": "update",
+            "deviceMap": [
+                "iMac11,2",
+                "iMac11,3"
+            ],
+            "links": [
+                {
+                    "url": "https://download.info.apple.com/Mac_OS_X/061-8473.20100727.BgtP7/MacOSXUpd10.6.4foriMacMid2010.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "55b50932c8bffd7345dd0ff612a3fcc0"
+            },
+            "size": 474611239
+        },
+        {
+            "type": "update",
+            "deviceMap": [
+                "iMac11,2",
+                "iMac11,3"
+            ],
+            "links": [
+                {
+                    "url": "https://download.info.apple.com/Mac_OS_X/061-8546.20100727.Vf5T8/MacOSXSrvUpd10.6.4iMacMid2010.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "c4e8620e957fdf9aa399555b442e61f7"
+            },
+            "size": 483295024
+        }
     ]
 }

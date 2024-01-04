@@ -1,0 +1,25 @@
+{
+    "osStr": "Rosetta",
+    "version": "12.0.1 RC",
+    "build": "21A558",
+    "released": "2021-10-18",
+    "rc": true,
+    "deviceMap": [
+        "Rosetta"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Rosetta"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/20/05/002-23740-A_DCQ3AD59M2/t4oi02bepx0nc87eqqug52qgibxnt98unx/RosettaUpdateAuto.pkg",
+                    "active": true
+                }
+            ],
+            "size": 183442
+        }
+    ]
+}

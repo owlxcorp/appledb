@@ -1,0 +1,16 @@
+{
+    "osStr": "macOS",
+    "version": "13.5",
+    "build": "22G2074",
+    "released": "2023-11-07",
+    "preinstalled": true,
+    "appledbWebImage": {
+        "id": "Ventura",
+        "align": "left"
+    },
+    "deviceMap": [
+        "Mac15,3",
+        "Mac15,4",
+        "Mac15,5"
+    ]
+}

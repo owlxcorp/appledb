@@ -1,0 +1,28 @@
+{
+    "osStr": "iOS",
+    "version": "13.2.2 Simulator",
+    "build": "17B102",
+    "uniqueBuild": "17B102-sim",
+    "released": "2019-11-07",
+    "deviceMap": [
+        "iOS Simulator"
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "iOS Simulator"
+            ],
+            "links": [
+                {
+                    "url": "https://devimages-cdn.apple.com/downloads/xcode/simulators/com.apple.pkg.iPhoneSimulatorSDK13_2-13.2.1.1575590084.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "daea75cff6d68bdfb4900f0c810109d0"
+            },
+            "size": 3257601815
+        }
+    ]
+}

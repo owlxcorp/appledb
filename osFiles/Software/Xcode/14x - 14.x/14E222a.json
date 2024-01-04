@@ -1,0 +1,57 @@
+{
+    "osStr": "Xcode",
+    "version": "14.3 RC",
+    "build": "14E222a",
+    "released": "2023-03-21",
+    "rc": true,
+    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 13"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "16.4",
+            "build": "20E238"
+        },
+        {
+            "osStr": "macOS",
+            "version": "13.3",
+            "build": "22E245"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "16.4",
+            "build": "20L489"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "9.4",
+            "build": "20T248"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 13"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_14.3_Release_Candidate/Xcode_14.3_Release_Candidate.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "392ca30c6a431963460708e404fb22b7da937050"
+            },
+            "size": 7527491653
+        }
+    ]
+}

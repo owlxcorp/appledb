@@ -1,0 +1,60 @@
+{
+    "osStr": "Xcode",
+    "version": "9.3 beta 2",
+    "build": "9Q107o",
+    "released": "2018-02-06",
+    "beta": true,
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.13"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "11.3 beta 2",
+            "build": "15E5178d",
+            "beta": true
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.13.4 beta 2",
+            "build": "17E150d",
+            "beta": true
+        },
+        {
+            "osStr": "tvOS",
+            "version": "11.3 beta 2",
+            "build": "15L5175d",
+            "beta": true
+        },
+        {
+            "osStr": "watchOS",
+            "version": "4.3 beta 2",
+            "build": "15T5176c",
+            "beta": true
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.13"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_9.3_beta_2/Xcode_9.3_beta_2.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "953d43c6009f73a1893e0688d36fdf6407d16ee6"
+            },
+            "size": 5519396065
+        }
+    ]
+}

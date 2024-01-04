@@ -1,6 +1,7 @@
 {
     "osStr": "Safari Technology Preview",
     "version": "70",
+    "safariVersion": "12.1",
     "released": "2018-11-14",
     "beta": true,
     "releaseNotes": "https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-70",
@@ -13,6 +14,44 @@
     ],
     "sources": [
         {
+            "type": "dmg",
+            "deviceMap": [
+                "Safari Technology Preview"
+            ],
+            "osMap": [
+                "macOS 10.13"
+            ],
+            "links": [
+                {
+                    "url": "https://secure-appldnld.apple.com/STP/041-22612-20181114-184D1786-AA54-11E8-82D8-98865F2D1BD8/SafariTechnologyPreview.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "98deb4cfa439cbc61ed3230c176f2c1f"
+            },
+            "size": 75362170
+        },
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Safari Technology Preview"
+            ],
+            "osMap": [
+                "macOS 10.14"
+            ],
+            "links": [
+                {
+                    "url": "https://secure-appldnld.apple.com/STP/041-22615-20181114-184D1786-AA54-11E8-82D8-98865F2D1BD8/SafariTechnologyPreview.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "49c2a838bac3a81cd61c3697ee10c476"
+            },
+            "size": 77313461
+        },
+        {
             "type": "pkg",
             "deviceMap": [
                 "Safari Technology Preview"
@@ -23,7 +62,6 @@
             "links": [
                 {
                     "url": "http://swcdn.apple.com/content/downloads/36/52/041-88752/npoo5mp82zex499wo6pslol4t7horys6xc/SafariTechPreview.pkg",
-                    "preferred": true,
                     "active": true
                 }
             ],
@@ -40,7 +78,6 @@
             "links": [
                 {
                     "url": "http://swcdn.apple.com/content/downloads/47/36/041-88751/ss3oylb0dn8c42t4caiyeyz7ifx8ka0j3v/SafariTechPreview.pkg",
-                    "preferred": true,
                     "active": true
                 }
             ],

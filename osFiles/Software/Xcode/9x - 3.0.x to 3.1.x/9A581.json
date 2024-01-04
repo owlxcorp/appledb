@@ -1,0 +1,52 @@
+{
+    "osStr": "Xcode",
+    "version": "3.0",
+    "build": "9A581",
+    "released": "2007-10-25",
+    "releaseNotes": "https://developer.apple.com/services-account/download?path=/Developer_Tools/xcode_3.0/xcode_3.0_release_notes.pdf",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "Mac OS X 10.5"
+    ],
+    "sdks": [
+        {
+            "osStr": "Mac OS X",
+            "version": "10.3"
+        },
+        {
+            "osStr": "Mac OS X",
+            "version": "10.4"
+        },
+        {
+            "osStr": "Mac OS X",
+            "version": "10.5"
+        },
+        {
+            "osStr": "iOS",
+            "version": "2.0"
+        }
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "Mac OS X 10.5"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/xcode_3.0/xcode_3.0.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "fc212a810cd72fb224199b4f5977beb377042fad"
+            },
+            "size": 1249928008
+        }
+    ]
+}

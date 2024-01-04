@@ -1,5 +1,4 @@
 const cname = 'api.appledb.dev'
-const { create } = require('domain')
 const fs = require('fs')
 const path = require('path')
 const hash = require('object-hash')
@@ -43,6 +42,22 @@ function writeJson(dirName, arr, property) {
   arr.map(function(x) { write(path.join(p, dirName, x[property].replace('/','%2F') + '.json'), JSON.stringify(x))})
 
   main[dirName] = arr
+}
+
+function handleSDKs(baseItem) {
+  var sdkEntries = []
+  if (!baseItem.hasOwnProperty('sdks')) return sdkEntries
+
+  for (var sdk of baseItem['sdks']) {
+    sdk['version'] = sdk['version'] + ' SDK'
+    sdk['uniqueBuild'] = sdk['build'] + '-SDK'
+    sdk['released'] = baseItem['released']
+    sdk['deviceMap'] = [(sdk['osStr'].indexOf('OS X') >= 0 ? 'macOS' : sdk['osStr']) + ' SDK']
+    sdk['sdk'] = true
+    sdkEntries.push(sdk)
+  }
+
+  return sdkEntries
 }
 
 var osFiles          = requireAll('osFiles', '.json'),
@@ -120,18 +135,21 @@ for (const group of deviceGroupFiles) {
 let createDuplicateEntriesArray = []
 
 for (let i of osFiles) {
-  if (!i.hasOwnProperty('createDuplicateEntries')) continue
-  for (const entry of i.createDuplicateEntries) {
+  if (!i.hasOwnProperty('createDuplicateEntries') && !i.hasOwnProperty('sdks')) continue
+  for (const entry of i.createDuplicateEntries || []) {
     let ver = { ...i }
     delete ver.createDuplicateEntries
     for (const property in entry) {
       ver[property] = entry[property]
     }
     createDuplicateEntriesArray.push(ver)
+
+    createDuplicateEntriesArray = createDuplicateEntriesArray.concat(handleSDKs(entry))
   }
   delete i.createDuplicateEntries
+  createDuplicateEntriesArray = createDuplicateEntriesArray.concat(handleSDKs(i))
 }
-
+let filterOTAsArray = ["audioOS", "tvOS", "watchOS", "iOS", "HomePod Software"];
 osFiles = osFiles
 .concat(createDuplicateEntriesArray)
 .map(function(ver) {
@@ -152,7 +170,9 @@ osFiles = osFiles
   ver.osType = ver.osStr
   if (ver.osType == 'iPhoneOS' || ver.osType == 'iPadOS') ver.osType = 'iOS'
   if (ver.osType == 'Apple TV Software') ver.osType = 'tvOS'
-  if (ver.osType == 'Mac OS X') ver.osType = 'macOS'
+  if (ver.osType == 'Mac OS X' || ver.osType == 'OS X') ver.osType = 'macOS'
+
+  if (filterOTAsArray.indexOf(ver.osType) >= 0 && ver.sources) ver.sources = ver.sources.filter(source => (source.type != 'ota'))
 
   function getLegacyDevicesObjectArray() {
     let obj = {}
@@ -220,11 +240,37 @@ const p = 'out'
 mkdir(p)
 fs.writeFileSync(`${p}/CNAME`, cname)
 fs.writeFileSync(`${p}/.nojekyll`, '')
+fs.writeFileSync(`${p}/index.html`, `
+<!DOCTYPE HTML>                                                                
+<html lang="en">                                                                
+    <head>                                                                      
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="0;url=https://github.com/littlebyteorg/appledb/blob/main/API.md" />      
+        <link rel="canonical" href="https://github.com/littlebyteorg/appledb/blob/main/API.md" />                    
+    </head>                                                                                                                                                                  
+    <body>                                                                      
+        <h1>                                                                    
+            Redirecting to <a href="https://github.com/littlebyteorg/appledb/blob/main/API.md">https://github.com/littlebyteorg/appledb/blob/main/API.md</a>
+        </h1>                                                                  
+    </body>                                                                    
+</html>
+`)
 
 var main = {}
 var filesWritten = 0
 
 writeJson('ios', osFiles, 'key')
+// Write index.json and main.json filtered by each osType
+Object.entries(osFiles.reduce(function(r, a) {
+  r[a.osType] = r[a.osType] || []
+  r[a.osType].push(a)
+  return r
+}, {})).forEach(([osType, fws]) => {
+  mkdir(path.join(p, `ios/${osType}`))
+  write(path.join(p, `ios/${osType}/index.json`), JSON.stringify(fws.map(x => x.key)))
+  write(path.join(p, `ios/${osType}/main.json`), JSON.stringify(fws))
+})
+
 writeJson('jailbreak', jailbreakFiles, 'name')
 writeJson('group', deviceGroupFiles, 'name')
 writeJson('device', deviceFiles, 'key')
@@ -246,5 +292,16 @@ osFiles.map(function(fw) {
     write(path.join(dirName, dev, fw.uniqueBuild + '.json'), JSON.stringify(jb))
   })
 })
+
+// home page json
+
+let homePage = require('./appledb-web/homePage.json')
+homePage.softwareCount = osFiles.length
+homePage.deviceCount = deviceFiles.length
+
+mkdir('./out/appledb-web')
+write('./out/appledb-web/homePage.json', JSON.stringify(homePage))
+
+// finish
 
 console.log('Files Written:', filesWritten)

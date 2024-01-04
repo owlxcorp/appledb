@@ -1,0 +1,25 @@
+{
+    "osStr": "Rosetta",
+    "version": "11.3 beta 2",
+    "build": "20E5186e",
+    "released": "2021-02-18",
+    "beta": true,
+    "deviceMap": [
+        "Rosetta"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Rosetta"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/27/15/071-07131-A_1GYQN1MLUI/n2v3ge2t72yfrvedzxxmpdj4rhn43eanri/RosettaUpdateAuto.pkg",
+                    "active": true
+                }
+            ],
+            "size": 465062
+        }
+    ]
+}

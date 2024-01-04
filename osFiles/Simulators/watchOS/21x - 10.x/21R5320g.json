@@ -1,0 +1,26 @@
+{
+    "osStr": "watchOS",
+    "version": "10.0 beta 4 Simulator",
+    "build": "21R5320g",
+    "uniqueBuild": "21R5320g-sim",
+    "released": "2023-07-26",
+    "beta": true,
+    "deviceMap": [
+        "watchOS Simulator"
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "watchOS Simulator"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/watchOS_10_beta_4_Simulator_Runtime/watchOS_10_beta_4_Simulator_Runtime.dmg",
+                    "active": true
+                }
+            ],
+            "size": 3942699486
+        }
+    ]
+}

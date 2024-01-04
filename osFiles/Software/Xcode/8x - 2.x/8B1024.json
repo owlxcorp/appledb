@@ -1,0 +1,13 @@
+{
+    "osStr": "Xcode Tools",
+    "version": "2.1",
+    "build": "8B1024",
+    "released": "2005-06-06",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "Mac OS X 10.4"
+    ],
+    "sdks": []
+}

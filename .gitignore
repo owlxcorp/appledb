@@ -3,7 +3,9 @@ out/
 node_modules/
 .idea/
 .vscode/
-import.txt
-import.json
+apple_token.txt
+import*.txt
+import*.json
 import_raw.html
 __pycache__/
+cache/

@@ -1,6 +1,7 @@
 {
     "osStr": "Safari Technology Preview",
     "version": "14",
+    "safariVersion": "10.1",
     "released": "2016-09-28",
     "beta": true,
     "releaseNotes": "https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-14",
@@ -23,10 +24,12 @@
             "links": [
                 {
                     "url": "http://appldnld.apple.com/STP/031-81900-20160926-E7046BDA-8434-11E6-83C5-ADC333D2D062/SafariTechnologyPreview.dmg",
-                    "preferred": true,
                     "active": true
                 }
             ],
+            "hashes": {
+                "md5": "147bc1cb94aba7a47c8799bbe2da5f45"
+            },
             "size": 62748347
         },
         {
@@ -40,10 +43,12 @@
             "links": [
                 {
                     "url": "http://appldnld.apple.com/STP/031-81899-20160926-E7046BC6-8434-11E6-83C5-ACC333D2D062/SafariTechnologyPreview.dmg",
-                    "preferred": true,
                     "active": true
                 }
             ],
+            "hashes": {
+                "md5": "c9a04752d19ee53d83a780256c5c8d7f"
+            },
             "size": 62454945
         }
     ]

@@ -1,0 +1,39 @@
+{
+    "osStr": "Xcode",
+    "version": "4.3.1",
+    "build": "4E1019",
+    "released": "2012-03-05",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "Mac OS X 10.7"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "5.1",
+            "build": "9B176"
+        }
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "Mac OS X 10.7"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/xcode_4.3.1_for_lion_21267/xcode_431_lion.dmg",
+                    "active": false
+                }
+            ],
+            "hashes": {
+                "sha1": "82d89d4029665cca28d806361e4607d9875ac9a4"
+            }
+        }
+    ]
+}

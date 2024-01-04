@@ -1,0 +1,33 @@
+{
+    "osStr": "Xcode",
+    "version": "4.3.3",
+    "build": "4E3002",
+    "released": "2012-06-07",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "Mac OS X 10.7"
+    ],
+    "sdks": [],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "Mac OS X 10.7"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/xcode_4.3.3_for_lion/xcode_4.3.3_for_lion.dmg",
+                    "active": false
+                }
+            ],
+            "hashes": {
+                "sha1": "d806ca8937b43a22d2f4e7c9ad8cc06e2a7298d8"
+            }
+        }
+    ]
+}

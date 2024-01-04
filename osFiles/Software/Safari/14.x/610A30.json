@@ -1,0 +1,31 @@
+{
+    "osStr": "Safari",
+    "version": "14.0 beta",
+    "build": "610A30",
+    "released": "2020-07-15",
+    "beta": true,
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "macOS 10.14"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Safari (macOS)"
+            ],
+            "osMap": [
+                "macOS 10.14"
+            ],
+            "links": [
+                {
+                    "url": "http://swcdn.apple.com/content/downloads/47/45/001-26318-A_4QO8MCOBFZ/szxky1eqxzc2853kto0kq2cngau645uuyc/Safari14.0MojaveAutoSeed.pkg",
+                    "active": false
+                }
+            ],
+            "size": 61318246
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "osStr": "Xcode",
+    "version": "8.3.1",
+    "build": "8E1000a",
+    "released": "2017-04-06",
+    "releaseNotes": "https://developer.apple.com/library/content/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html#//apple_ref/doc/uid/TP40001051-CH1-SW848",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.12"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "10.3",
+            "build": "14E269"
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.12.4",
+            "build": "16E185"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "10.2",
+            "build": "14W260"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "3.2",
+            "build": "14V243"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.12"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_8.3.1/Xcode_8.3.1.xip",
+                    "active": false
+                }
+            ],
+            "hashes": {
+                "sha1": "320e0c26daec62ef2fbc67bac26642fc6f2b0a90"
+            },
+            "size": 4495662305
+        }
+    ]
+}

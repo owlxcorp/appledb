@@ -1,0 +1,57 @@
+{
+    "osStr": "Xcode",
+    "version": "7.3",
+    "build": "7D175",
+    "released": "2016-03-21",
+    "releaseNotes": "https://developer.apple.com/library/content/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html#//apple_ref/doc/uid/TP40001051-CH1-SW233",
+    "securityNotes": "https://support.apple.com/HT206172",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "OS X 10.11"
+    ],
+    "sdks": [
+        {
+            "osStr": "OS X",
+            "version": "10.11.4",
+            "build": "15E60"
+        },
+        {
+            "osStr": "iOS",
+            "version": "9.3",
+            "build": "13E230"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "9.2",
+            "build": "13Y227"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "2.2",
+            "build": "13V143"
+        }
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "OS X 10.11"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_7.3/Xcode_7.3.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "2a9ad88e2144022fc81cdc1976e79b3d35a235b8"
+            },
+            "size": 5047652942
+        }
+    ]
+}

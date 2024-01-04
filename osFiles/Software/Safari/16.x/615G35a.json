@@ -1,0 +1,31 @@
+{
+    "osStr": "Safari",
+    "version": "16.6.1",
+    "build": "615G35a",
+    "released": "2023-09-21",
+    "securityNotes": "https://support.apple.com/HT213930",
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "macOS 12"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Safari (macOS)"
+            ],
+            "osMap": [
+                "macOS 12"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/36/42/042-27537-A_K9ARYCOF67/70jgynnydk2rzerf000p08o9toi3syfeud/Safari16.6.1MontereyAuto.pkg",
+                    "active": false
+                }
+            ],
+            "size": 141329566
+        }
+    ]
+}

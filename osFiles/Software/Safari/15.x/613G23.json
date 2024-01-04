@@ -1,0 +1,31 @@
+{
+    "osStr": "Safari",
+    "version": "15.6 beta 4",
+    "build": "613G23",
+    "released": "2022-07-07",
+    "beta": true,
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "macOS 11"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Safari (macOS)"
+            ],
+            "osMap": [
+                "macOS 11"
+            ],
+            "links": [
+                {
+                    "url": "http://swcdn.apple.com/content/downloads/39/47/012-37419-A_QIY5M6BH89/dmulqk3p5lnjkt22884fyoyscupnbw2gdt/Safari15.6BigSurAutoSeed.pkg",
+                    "active": false
+                }
+            ],
+            "size": 125892276
+        }
+    ]
+}

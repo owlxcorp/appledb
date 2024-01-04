@@ -1,0 +1,61 @@
+{
+    "osStr": "Xcode",
+    "version": "12.5 beta",
+    "build": "12E5220o",
+    "released": "2021-02-01",
+    "beta": true,
+    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-12_5-beta-release-notes/",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 11"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "14.5 beta",
+            "build": "18E5140i",
+            "beta": true
+        },
+        {
+            "osStr": "macOS",
+            "version": "11.3 beta",
+            "build": "20E5172i",
+            "beta": true
+        },
+        {
+            "osStr": "tvOS",
+            "version": "14.5 beta",
+            "build": "18L5149i",
+            "beta": true
+        },
+        {
+            "osStr": "watchOS",
+            "version": "7.4 beta",
+            "build": "18T5144k",
+            "beta": true
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 11"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12.5_beta/Xcode_12.5_beta.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "7168e7735cac047091cf8c063de8a906bee781a2"
+            },
+            "size": 11872421094
+        }
+    ]
+}

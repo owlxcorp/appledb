@@ -68,8 +68,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_64bit_TouchID_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -86,8 +85,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPadPro_9.7_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -104,8 +102,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPadPro_12.9_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -124,8 +121,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_64bit_TouchID_ASTC_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -144,8 +140,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_Pro_HFR_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -162,8 +157,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_10.2_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -190,8 +184,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_Pro_A12X_A12Z_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -210,8 +203,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_Spring_2019_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -228,8 +220,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_10.2_2020_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -246,8 +237,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_Fall_2020_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -270,8 +260,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2021/iPadOS_15_beta/iPad_Pro_Spring_2021_15.0_19A5261w_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {

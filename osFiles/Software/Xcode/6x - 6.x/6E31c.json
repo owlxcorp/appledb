@@ -1,0 +1,31 @@
+{
+    "osStr": "Xcode",
+    "version": "6.4 beta 4",
+    "build": "6E31c",
+    "released": "2015-06-09",
+    "beta": true,
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "OS X 10.10"
+    ],
+    "sdks": [
+        {
+            "osStr": "OS X",
+            "version": "10.10.3",
+            "build": "14D125"
+        },
+        {
+            "osStr": "OS X",
+            "version": "10.9.5",
+            "build": "13F34"
+        },
+        {
+            "osStr": "iOS",
+            "version": "8.4 beta 4",
+            "build": "12H4125a",
+            "beta": true
+        }
+    ]
+}

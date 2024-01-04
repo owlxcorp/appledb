@@ -1,0 +1,57 @@
+{
+    "osStr": "Xcode",
+    "version": "11.4",
+    "build": "11E146",
+    "released": "2020-03-24",
+    "releaseNotes": "https://developer.apple.com/documentation/xcode_release_notes/xcode_11_4_release_notes",
+    "securityNotes": "https://support.apple.com/HT211148",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.15"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "13.4",
+            "build": "17E255"
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.15.4",
+            "build": "19E258"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "13.4",
+            "build": "17L255"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "6.2",
+            "build": "17T255"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.15"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.4/Xcode_11.4.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "7c1151670760be55c5c8b09be1aa2a17291dc468"
+            },
+            "size": 8111919274
+        }
+    ]
+}

@@ -7,5 +7,24 @@
     "deviceMap": [
         "MacBookPro3,1-15-inch-Mid-2007",
         "MacBookPro3,1-17-inch"
+    ],
+    "sources": [
+        {
+            "type": "update",
+            "deviceMap": [
+                "MacBookPro3,1-15-inch-Mid-2007",
+                "MacBookPro3,1-17-inch"
+            ],
+            "links": [
+                {
+                    "url": "https://download.info.apple.com/Mac_OS_X/061-3995.20071101.GGb45/MacBookProSoftwareUpdate1.2.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "29f41f75ac2900752bbfac12938d4386"
+            },
+            "size": 15056469
+        }
     ]
 }

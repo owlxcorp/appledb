@@ -21,12 +21,10 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iPhone/061-5246.20080818.2V0hO/iPhone1,1_2.0.2_5C1_Restore.ipsw",
-                    "preferred": true,
                     "active": true
                 },
                 {
                     "url": "http://appldnld.apple.com/iPhone/061-5246.20080818.2V0hO/iPhone1,1_2.0.2_5C1_Restore.ipsw",
-                    "preferred": false,
                     "active": true
                 }
             ],
@@ -43,12 +41,10 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/iPhone/061-5241.20080818.t5Fv3/iPhone1,2_2.0.2_5C1_Restore.ipsw",
-                    "preferred": true,
                     "active": true
                 },
                 {
                     "url": "http://appldnld.apple.com/iPhone/061-5241.20080818.t5Fv3/iPhone1,2_2.0.2_5C1_Restore.ipsw",
-                    "preferred": false,
                     "active": true
                 }
             ],
@@ -65,18 +61,16 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/ProtectedAsset/iPod/osx/bundles/061-5243.20080818.039Ym/iPod1,1_2.0.2_5C1_Restore.ipsw",
-                    "preferred": true,
                     "active": true
                 },
                 {
                     "url": "http://appldnld.apple.com/ProtectedAsset/iPod/osx/bundles/061-5243.20080818.039Ym/iPod1,1_2.0.2_5C1_Restore.ipsw",
-                    "preferred": false,
                     "active": true
                 }
             ],
             "hashes": {
-                "sha1": "c8b6f9fefa3f3777c56285dfe4c735b1e08a81a2",
-                "md5": "d060b02694b0b7c64307a0569d8e6a71"
+                "md5": "d060b02694b0b7c64307a0569d8e6a71",
+                "sha1": "c8b6f9fefa3f3777c56285dfe4c735b1e08a81a2"
             },
             "size": 258201218
         }

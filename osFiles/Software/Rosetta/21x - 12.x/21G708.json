@@ -1,0 +1,25 @@
+{
+    "osStr": "Rosetta",
+    "version": "12.6.7 RC 2",
+    "build": "21G708",
+    "released": "2023-05-31",
+    "rc": true,
+    "deviceMap": [
+        "Rosetta"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Rosetta"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/07/12/032-88942-A_I7KPO0RW2C/qnyph1ew4gxo3b1475cjon415uiicdfd3z/RosettaUpdateAuto.pkg",
+                    "active": true
+                }
+            ],
+            "size": 182103
+        }
+    ]
+}

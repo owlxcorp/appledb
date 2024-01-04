@@ -1,0 +1,21 @@
+{
+    "osStr": "Xcode",
+    "version": "4.4 GM",
+    "build": "4F90",
+    "released": "2012-02-16",
+    "rc": true,
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "Mac OS X 10.7",
+        "OS X 10.8"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "5.1",
+            "build": "9B174"
+        }
+    ]
+}

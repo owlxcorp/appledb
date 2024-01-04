@@ -17,15 +17,29 @@
             "links": [
                 {
                     "url": "https://updates.cdn-apple.com/2018/tvosseed/091-82045-20180507-84C1D8C6-4EE6-11E8-8C19-C421CEB366E9/AppleTV5,3_11.4_15L5570a_Restore.ipsw",
-                    "preferred": true,
                     "active": false
                 },
                 {
                     "url": "http://updates-http.cdn-apple.com/2018/tvosseed/091-82045-20180507-84C1D8C6-4EE6-11E8-8C19-C421CEB366E9/AppleTV5,3_11.4_15L5570a_Restore.ipsw",
-                    "preferred": false,
                     "active": false
                 }
             ]
+        },
+        {
+            "type": "ota",
+            "deviceMap": [
+                "AppleTV6,2"
+            ],
+            "links": [
+                {
+                    "url": "https://updates.cdn-apple.com/2018/tvosseed/091-82044-20180507-850A1D14-4EE8-11E8-9C03-6B22CEB366E9/com_apple_MobileAsset_SoftwareUpdate/80713edbed997aed436a549c889fad3a6c247555.zip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "73e096bc6b7ca819d08213db8be4af4f"
+            },
+            "size": 1523593882
         }
     ]
 }

@@ -8,5 +8,25 @@
         "MacBookPro3,1-15-inch-Mid-2007",
         "MacBookPro3,1-17-inch",
         "Macmini2,1"
+    ],
+    "sources": [
+        {
+            "type": "update",
+            "deviceMap": [
+                "MacBookPro3,1-15-inch-Mid-2007",
+                "MacBookPro3,1-17-inch",
+                "Macmini2,1"
+            ],
+            "links": [
+                {
+                    "url": "https://download.info.apple.com/Mac_OS_X/061-3894.20070924.qW2cv/MacBookMacBookProSU1.0.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "af2a2b51275f1554018d7754fd897c1e"
+            },
+            "size": 204415
+        }
     ]
 }

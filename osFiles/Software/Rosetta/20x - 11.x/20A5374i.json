@@ -1,0 +1,25 @@
+{
+    "osStr": "Rosetta",
+    "version": "11.0 beta 8",
+    "build": "20A5374i",
+    "released": "2020-09-22",
+    "beta": true,
+    "deviceMap": [
+        "Rosetta"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Rosetta"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/41/33/001-49914-A_CH34UNSJ7X/15g9znn54k6qvsvm3vs8we0uq5d9kvvfry/RosettaUpdateAuto.pkg",
+                    "active": true
+                }
+            ],
+            "size": 392633
+        }
+    ]
+}

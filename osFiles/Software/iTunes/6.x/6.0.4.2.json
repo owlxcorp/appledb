@@ -1,0 +1,35 @@
+{
+    "osStr": "iTunes",
+    "version": "6.0.4.2",
+    "released": "2006-03-03",
+    "deviceMap": [
+        "iTunes (Windows, x86)"
+    ],
+    "osMap": [
+        "Windows 2000",
+        "Windows XP"
+    ],
+    "sources": [
+        {
+            "type": "exe",
+            "deviceMap": [
+                "iTunes (Windows, x86)"
+            ],
+            "osMap": [
+                "Windows 2000",
+                "Windows XP"
+            ],
+            "links": [
+                {
+                    "url": "https://secure-appldnld.apple.com/iTunes6/Win/061-2454.20060511.tzsawd/iTunesSetup.exe",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "127d88760c29ad3d18f360c0e63901e2",
+                "sha1": "a4ee6d7685781d89d25fb69346461daf9d074478"
+            },
+            "size": 37311488
+        }
+    ]
+}

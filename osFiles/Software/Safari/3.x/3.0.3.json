@@ -1,0 +1,44 @@
+{
+    "osStr": "Safari",
+    "version": "3.0.3",
+    "released": "2007-07-31",
+    "beta": true,
+    "createDuplicateEntries": [
+        {
+            "uniqueBuild": "3.0.3-2",
+            "released": "2007-08-01",
+            "deviceMap": [
+                "Safari (Windows)"
+            ],
+            "osMap": [
+                "Windows XP",
+                "Windows Vista"
+            ],
+            "sources": [
+                {
+                    "type": "exe",
+                    "deviceMap": [
+                        "Safari (Windows)"
+                    ],
+                    "osMap": [
+                        "Windows XP",
+                        "Windows Vista"
+                    ],
+                    "links": [
+                        {
+                            "url": "http://appldnld.apple.com/Safari3/061-3625.20070731.in8Y6/Safari303BetaSetup.exe",
+                            "active": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "securityNotes": "http://support.apple.com/kb/TA24875",
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "Mac OS X 10.4"
+    ]
+}

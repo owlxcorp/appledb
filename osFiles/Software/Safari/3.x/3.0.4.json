@@ -1,0 +1,101 @@
+{
+    "osStr": "Safari",
+    "version": "3.0.4",
+    "released": "2007-10-26",
+    "createDuplicateEntries": [
+        {
+            "uniqueBuild": "3.0.4-2",
+            "released": "2007-11-14"
+        },
+        {
+            "uniqueBuild": "3.0.4-beta",
+            "released": "2007-11-14",
+            "beta": true,
+            "securityNotes": "http://support.apple.com/kb/TA25078",
+            "deviceMap": [
+                "Safari (Windows)"
+            ],
+            "osMap": [
+                "Windows XP",
+                "Windows Vista"
+            ],
+            "sources": [
+                {
+                    "type": "exe",
+                    "deviceMap": [
+                        "Safari (Windows)"
+                    ],
+                    "osMap": [
+                        "Windows XP",
+                        "Windows Vista"
+                    ],
+                    "links": [
+                        {
+                            "url": "http://appldnld.apple.com/Safari3/061-3575.20071114.sS4w4/Safari304BetaSetup.exe",
+                            "active": true
+                        }
+                    ],
+                    "hashes": {
+                        "md5": "d8d89214436fb87646eafc2a8c620842"
+                    },
+                    "size": 16395448
+                }
+            ]
+        },
+        {
+            "uniqueBuild": "3.0.4-beta-2",
+            "released": "2007-12-17",
+            "beta": true,
+            "securityNotes": "https://support.apple.com/HT2290",
+            "deviceMap": [
+                "Safari (Windows)"
+            ],
+            "osMap": [
+                "Windows XP",
+                "Windows Vista"
+            ]
+        },
+        {
+            "uniqueBuild": "3.0.4-beta-3",
+            "released": "2007-12-21",
+            "beta": true,
+            "securityNotes": "https://support.apple.com/HT2267",
+            "deviceMap": [
+                "Safari (Windows)"
+            ],
+            "osMap": [
+                "Windows XP",
+                "Windows Vista"
+            ],
+            "sources": [
+                {
+                    "type": "exe",
+                    "deviceMap": [
+                        "Safari (Windows)"
+                    ],
+                    "osMap": [
+                        "Windows XP",
+                        "Windows Vista"
+                    ],
+                    "links": [
+                        {
+                            "url": "http://appldnld.apple.com/Safari3/061-4211.20071221.tGtgf/Safari304BetaSecUpdateSetup.exe",
+                            "active": true
+                        }
+                    ],
+                    "hashes": {
+                        "md5": "a20ae3122e8c5c476bef294e68229d54"
+                    },
+                    "size": 16398632
+                }
+            ]
+        }
+    ],
+    "deviceMap": [
+        "Safari (macOS)"
+    ],
+    "osMap": [
+        "Mac OS X 10.4",
+        "Mac OS X 10.5"
+    ]
+}

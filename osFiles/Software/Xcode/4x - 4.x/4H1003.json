@@ -1,0 +1,52 @@
+{
+    "osStr": "Xcode",
+    "version": "4.6.2",
+    "build": "4H1003",
+    "released": "2013-04-15",
+    "releaseNotes": "https://developer.apple.com/library/content/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html#//apple_ref/doc/uid/TP40001051-CH1-SW603",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "Mac OS X 10.7",
+        "OS X 10.8"
+    ],
+    "sdks": [
+        {
+            "osStr": "Mac OS X",
+            "version": "10.7.4",
+            "build": "11E52"
+        },
+        {
+            "osStr": "OS X",
+            "version": "10.8.3",
+            "build": "12D75"
+        },
+        {
+            "osStr": "iOS",
+            "version": "6.1",
+            "build": "10B141"
+        }
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "Mac OS X 10.7",
+                "OS X 10.8"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/xcode_4.6.2/xcode4620419895a.dmg",
+                    "active": false
+                }
+            ],
+            "hashes": {
+                "sha1": "5b1918ac6173f6444196cf497a419d79970608c2"
+            }
+        }
+    ]
+}

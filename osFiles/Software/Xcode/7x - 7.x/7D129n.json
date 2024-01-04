@@ -1,0 +1,39 @@
+{
+    "osStr": "Xcode",
+    "version": "7.3 beta 2",
+    "build": "7D129n",
+    "released": "2016-01-25",
+    "beta": true,
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "OS X 10.11"
+    ],
+    "sdks": [
+        {
+            "osStr": "OS X",
+            "version": "10.11.4 beta 2",
+            "build": "15E33c",
+            "beta": true
+        },
+        {
+            "osStr": "iOS",
+            "version": "9.3 beta 2",
+            "build": "13E5191d",
+            "beta": true
+        },
+        {
+            "osStr": "tvOS",
+            "version": "9.2 beta 2",
+            "build": "13Y5189c",
+            "beta": true
+        },
+        {
+            "osStr": "watchOS",
+            "version": "2.2 beta 2",
+            "build": "13V5108b",
+            "beta": true
+        }
+    ]
+}

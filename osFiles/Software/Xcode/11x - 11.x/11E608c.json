@@ -1,0 +1,108 @@
+{
+    "osStr": "Xcode",
+    "version": "11.5",
+    "build": "11E608c",
+    "released": "2020-05-20",
+    "createDuplicateEntries": [
+        {
+            "version": "11.5 GM",
+            "uniqueBuild": "11E608c-GM",
+            "released": "2020-05-18",
+            "rc": true,
+            "sdks": [
+                {
+                    "osStr": "iOS",
+                    "version": "13.5",
+                    "build": "17F65"
+                },
+                {
+                    "osStr": "macOS",
+                    "version": "10.15.4",
+                    "build": "19E258"
+                },
+                {
+                    "osStr": "tvOS",
+                    "version": "13.4",
+                    "build": "17L255"
+                },
+                {
+                    "osStr": "watchOS",
+                    "version": "6.2",
+                    "build": "17T255"
+                }
+            ],
+            "sources": [
+                {
+                    "type": "xip",
+                    "deviceMap": [
+                        "Xcode"
+                    ],
+                    "osMap": [
+                        "macOS 10.15"
+                    ],
+                    "links": [
+                        {
+                            "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.5_GM_Seed/Xcode_11.5_GM_Seed.xip",
+                            "active": true
+                        }
+                    ],
+                    "hashes": {
+                        "sha1": "4654b261841d0336cb90ea1c82d15fd7aa03c982"
+                    },
+                    "size": 8124240037
+                }
+            ]
+        }
+    ],
+    "releaseNotes": "https://developer.apple.com/documentation/xcode_release_notes/xcode_11_5_gm_seed_release_notes",
+    "securityNotes": "https://support.apple.com/HT211183",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.15"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "13.5",
+            "build": "17F65"
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.15.4",
+            "build": "19E258"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "13.4",
+            "build": "17L255"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "6.2",
+            "build": "17T255"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.15"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.5/Xcode_11.5.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "4654b261841d0336cb90ea1c82d15fd7aa03c982"
+            },
+            "size": 8124240037
+        }
+    ]
+}

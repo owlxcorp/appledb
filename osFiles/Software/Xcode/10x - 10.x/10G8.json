@@ -1,0 +1,56 @@
+{
+    "osStr": "Xcode",
+    "version": "10.3",
+    "build": "10G8",
+    "released": "2019-07-22",
+    "releaseNotes": "https://developer.apple.com/documentation/xcode_release_notes/xcode_10_3_release_notes/",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.14"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "12.4",
+            "build": "16G73"
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.14.6",
+            "build": "18G74"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "12.4",
+            "build": "16M567"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "5.3",
+            "build": "16U567"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.14"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_10.3/Xcode_10.3.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "c5f5d2f6513ae67097038892470f01fd1b490bdd"
+            },
+            "size": 6044005625
+        }
+    ]
+}

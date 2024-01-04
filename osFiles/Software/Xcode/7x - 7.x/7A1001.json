@@ -1,0 +1,53 @@
+{
+    "osStr": "Xcode",
+    "version": "7.0.1",
+    "build": "7A1001",
+    "released": "2015-09-28",
+    "releaseNotes": "https://developer.apple.com/library/content/releasenotes/DeveloperTools/RN-Xcode/Chapters/Introduction.html#//apple_ref/doc/uid/TP40001051-CH1-SW324",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "OS X 10.10",
+        "OS X 10.11"
+    ],
+    "sdks": [
+        {
+            "osStr": "OS X",
+            "version": "10.11",
+            "build": "15A278"
+        },
+        {
+            "osStr": "iOS",
+            "version": "9.0",
+            "build": "13A340"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "2.0",
+            "build": "13S343"
+        }
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "OS X 10.10",
+                "OS X 10.11"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_7.0.1/Xcode_7.0.1.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "f750bd86359383a77d4b57714b05e6725eaec76c"
+            },
+            "size": 3733068903
+        }
+    ]
+}

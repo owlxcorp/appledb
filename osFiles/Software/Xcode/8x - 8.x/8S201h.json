@@ -1,0 +1,40 @@
+{
+    "osStr": "Xcode",
+    "version": "8.0 beta 6",
+    "build": "8S201h",
+    "released": "2016-08-15",
+    "beta": true,
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "OS X 10.11",
+        "macOS 10.12"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "10.0 beta 6",
+            "build": "14A5339a",
+            "beta": true
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.12 beta 5",
+            "build": "16A286a",
+            "beta": true
+        },
+        {
+            "osStr": "tvOS",
+            "version": "10.0 beta 6",
+            "build": "14T5326a",
+            "beta": true
+        },
+        {
+            "osStr": "watchOS",
+            "version": "3.0 beta 6",
+            "build": "14S5320a",
+            "beta": true
+        }
+    ]
+}

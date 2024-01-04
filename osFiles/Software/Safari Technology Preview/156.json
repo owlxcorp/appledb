@@ -1,6 +1,7 @@
 {
     "osStr": "Safari Technology Preview",
     "version": "156",
+    "safariVersion": "16.4",
     "released": "2022-10-19",
     "beta": true,
     "releaseNotes": "https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-156",
@@ -23,7 +24,6 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/STP/012-91831-20221019-E7FEE45B-BF3B-40A8-8E58-467F633907EF/SafariTechnologyPreview.dmg",
-                    "preferred": true,
                     "active": false
                 }
             ]
@@ -39,10 +39,41 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/STP/012-91827-20221019-6FA264B5-0CA1-4E07-8F0A-C5733CC6E68C/SafariTechnologyPreview.dmg",
-                    "preferred": true,
                     "active": false
                 }
             ]
+        },
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Safari Technology Preview"
+            ],
+            "osMap": [
+                "macOS 12"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/15/20/012-91832-A_INDKBS3M1N/fbnxgh6qhs98ieiiow6oa99om1b2il5dey/SafariTechPreview.pkg",
+                    "active": false
+                }
+            ],
+            "size": 122491358
+        },
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Safari Technology Preview"
+            ],
+            "osMap": [
+                "macOS 13"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/19/40/012-91828-A_D07YNX8BNG/9b6ic7akbdzh9vhm9pnt1c4hve4fyxekh1/SafariTechPreview.pkg",
+                    "active": false
+                }
+            ],
+            "size": 123520531
         }
     ]
 }

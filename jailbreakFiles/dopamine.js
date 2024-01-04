@@ -12,9 +12,10 @@ module.exports = {
       {
         name: "Installing Dopamine",
         url: "/installing-dopamine/",
+        pkgman: "sileo"
       }
     ],
-    latestVer: "1.1.4",
+    latestVer: "1.1.11",
     icon: "/assets/images/jb-icons/dopamine.png",
     notes: "Must be installed via TrollStore. Formerly known as Fugu15 Max.",
     type: "Semi-Untethered",
@@ -76,6 +77,7 @@ module.exports = {
         "iPad14,2",
       ],
       firmwares: [
+        "19A340",
         "19A341",
         "19A342",
         "19A344",

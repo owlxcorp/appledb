@@ -14,10 +14,12 @@
             "links": [
                 {
                     "url": "https://download.info.apple.com/Mac_OS_X/061-6261.20091027.Ptwrs/WirelessMouseSoftware.dmg",
-                    "preferred": false,
                     "active": true
                 }
             ],
+            "hashes": {
+                "md5": "c9bffabc5eee0e6cb8410e77369f121c"
+            },
             "size": 37976785
         }
     ]

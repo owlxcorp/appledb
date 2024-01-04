@@ -1,0 +1,24 @@
+{
+    "osStr": "Rosetta",
+    "version": "14.0",
+    "build": "23A344",
+    "released": "2023-09-21",
+    "deviceMap": [
+        "Rosetta"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Rosetta"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/61/33/042-54922-A_CRP1ZHXBPM/opqmcgrd6gn0ttrjvpscews71a04lax8dl/RosettaUpdateAuto.pkg",
+                    "active": true
+                }
+            ],
+            "size": 380200
+        }
+    ]
+}

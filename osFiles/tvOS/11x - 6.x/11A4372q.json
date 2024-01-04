@@ -18,9 +18,8 @@
             ],
             "links": [
                 {
-                    "url": "https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/apple_tv_software_update_beta/apple_tv_2nd_generation_software_update_beta.dmg",
-                    "preferred": false,
-                    "active": true
+                    "url": "https://developer.apple.com/services-account/download?path=/wwdc_2013/apple_tv_software_update_beta/apple_tv_2nd_generation_software_update_beta.dmg",
+                    "active": false
                 }
             ]
         },
@@ -31,9 +30,8 @@
             ],
             "links": [
                 {
-                    "url": "https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/apple_tv_software_update_beta/apple_tv_3rd_generation_software_update_beta.dmg",
-                    "preferred": false,
-                    "active": true
+                    "url": "https://developer.apple.com/services-account/download?path=/wwdc_2013/apple_tv_software_update_beta/apple_tv_3rd_generation_software_update_beta.dmg",
+                    "active": false
                 }
             ]
         },
@@ -44,9 +42,8 @@
             ],
             "links": [
                 {
-                    "url": "https://developer.apple.com/devcenter/download.action?path=/wwdc_2013/apple_tv_software_update_beta/apple_tv_3rd_generation_rev_a_software_update_beta.dmg",
-                    "preferred": false,
-                    "active": true
+                    "url": "https://developer.apple.com/services-account/download?path=/wwdc_2013/apple_tv_software_update_beta/apple_tv_3rd_generation_rev_a_software_update_beta.dmg",
+                    "active": false
                 }
             ]
         }

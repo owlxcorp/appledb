@@ -1,0 +1,28 @@
+{
+    "osStr": "iOS",
+    "version": "13.6 Simulator",
+    "build": "17G64",
+    "uniqueBuild": "17G64-sim",
+    "released": "2020-07-15",
+    "deviceMap": [
+        "iOS Simulator"
+    ],
+    "sources": [
+        {
+            "type": "dmg",
+            "deviceMap": [
+                "iOS Simulator"
+            ],
+            "links": [
+                {
+                    "url": "https://devimages-cdn.apple.com/downloads/xcode/simulators/com.apple.pkg.iPhoneSimulatorSDK13_6-13.6.1.1597276955.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "17e39fbf96e027d241a164e9e4eb75bd"
+            },
+            "size": 3363795228
+        }
+    ]
+}

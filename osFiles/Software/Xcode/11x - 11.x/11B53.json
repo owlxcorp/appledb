@@ -1,0 +1,59 @@
+{
+    "osStr": "Xcode",
+    "version": "11.2.1 GM",
+    "build": "11B53",
+    "released": "2019-11-05",
+    "rc": true,
+    "releaseNotes": "https://developer.apple.com/documentation/xcode_release_notes/xcode_11_2_1_gm_seed_release_notes/",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.14",
+        "macOS 10.15"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "13.2.2",
+            "build": "17B102"
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.15.1",
+            "build": "19B89"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "13.2",
+            "build": "17K90"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "6.1",
+            "build": "17S80"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.14",
+                "macOS 10.15"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_11.2.1_GM_Seed/Xcode_11.2.1_GM_Seed.xip",
+                    "active": false
+                }
+            ],
+            "hashes": {
+                "sha1": "fc4ebcd7ed261d35d01084c73df54c1ef979c834"
+            },
+            "size": 7822250127
+        }
+    ]
+}

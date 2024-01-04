@@ -1,0 +1,69 @@
+{
+    "osStr": "Xcode",
+    "version": "15.0 beta 4",
+    "build": "15A5195m",
+    "released": "2023-07-11",
+    "beta": true,
+    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 13",
+        "macOS 14"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "17.0 beta 3",
+            "build": "21A5277g",
+            "beta": true
+        },
+        {
+            "osStr": "macOS",
+            "version": "14.0 beta 3",
+            "build": "23A5286f",
+            "beta": true
+        },
+        {
+            "osStr": "tvOS",
+            "version": "17.0 beta 3",
+            "build": "21J5303f",
+            "beta": true
+        },
+        {
+            "osStr": "visionOS",
+            "version": "1.0 beta",
+            "build": "21N5165f",
+            "beta": true
+        },
+        {
+            "osStr": "watchOS",
+            "version": "10.0 beta 3",
+            "build": "21R5305e",
+            "beta": true
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 13",
+                "macOS 14"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_15_beta_4/Xcode_15_beta_4.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "5da0a1e6ad538e78a59de38a41e6dbab05a3ac1f"
+            },
+            "size": 3351367364
+        }
+    ]
+}

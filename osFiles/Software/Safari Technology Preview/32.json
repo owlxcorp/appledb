@@ -1,6 +1,7 @@
 {
     "osStr": "Safari Technology Preview",
     "version": "32",
+    "safariVersion": "11.0",
     "released": "2017-06-07",
     "beta": true,
     "releaseNotes": "https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-32",
@@ -23,10 +24,12 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/STP/091-15727-20170607-1AFFE048-4A2F-11E7-B717-E0A12D6174CC/SafariTechnologyPreview.dmg",
-                    "preferred": true,
                     "active": true
                 }
             ],
+            "hashes": {
+                "md5": "602d04edc62ba6052aaca1c3fa771bc1"
+            },
             "size": 68844960
         },
         {
@@ -40,10 +43,12 @@
             "links": [
                 {
                     "url": "https://secure-appldnld.apple.com/STP/091-07971-20170607-1AFFE2D2-4A2F-11E7-B717-DFA12D6174CC/SafariTechnologyPreview.dmg",
-                    "preferred": true,
                     "active": true
                 }
             ],
+            "hashes": {
+                "md5": "ac68149bae40bbd2c294f224c398210a"
+            },
             "size": 68705683
         }
     ]

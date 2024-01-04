@@ -1,0 +1,25 @@
+{
+    "osStr": "Rosetta",
+    "version": "11.7.7 RC 2",
+    "build": "20G1332",
+    "released": "2023-04-11",
+    "rc": true,
+    "deviceMap": [
+        "Rosetta"
+    ],
+    "sources": [
+        {
+            "type": "pkg",
+            "deviceMap": [
+                "Rosetta"
+            ],
+            "links": [
+                {
+                    "url": "https://swcdn.apple.com/content/downloads/28/19/032-73003-A_0WMDVBQGWP/z4wojeqfzuzjsaakgmwnh0mxy9t42w8589/RosettaUpdateAuto.pkg",
+                    "active": true
+                }
+            ],
+            "size": 200690
+        }
+    ]
+}

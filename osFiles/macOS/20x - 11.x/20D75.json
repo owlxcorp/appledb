@@ -2,6 +2,8 @@
     "osStr": "macOS",
     "version": "11.2.1",
     "build": "20D75",
+    "embeddedOSBuild": "14Y908",
+    "bridgeOSBuild": "18P4346",
     "released": "2021-02-15",
     "releaseNotes": "https://support.apple.com/HT211896#macos1121",
     "securityNotes": "https://support.apple.com/HT212177",
@@ -147,11 +149,13 @@
             "links": [
                 {
                     "url": "http://swcdn.apple.com/content/downloads/00/60/071-05432-A_QOY2QE0UMR/puuz6c0epc7o0ozyovvi6tjxhzpf6uf04s/InstallAssistant.pkg",
-                    "preferred": true,
                     "active": false
                 }
             ],
-            "hashes": {}
+            "hashes": {
+                "sha1": "c96c04f2b49370b0e41cd3a8a1fc586b5abb7329"
+            },
+            "size": 12199403070
         }
     ]
 }

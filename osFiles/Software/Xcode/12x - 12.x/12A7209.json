@@ -1,0 +1,111 @@
+{
+    "osStr": "Xcode",
+    "version": "12.0",
+    "build": "12A7209",
+    "released": "2020-09-17",
+    "createDuplicateEntries": [
+        {
+            "version": "12.0 GM",
+            "uniqueBuild": "12A7209-GM",
+            "released": "2020-09-15",
+            "rc": true,
+            "sdks": [
+                {
+                    "osStr": "iOS",
+                    "version": "14.0",
+                    "build": "18A390"
+                },
+                {
+                    "osStr": "macOS",
+                    "version": "10.15.6",
+                    "build": "19G68"
+                },
+                {
+                    "osStr": "tvOS",
+                    "version": "14.0",
+                    "build": "18J390"
+                },
+                {
+                    "osStr": "watchOS",
+                    "version": "7.0",
+                    "build": "18R382"
+                }
+            ],
+            "sources": [
+                {
+                    "type": "xip",
+                    "deviceMap": [
+                        "Xcode"
+                    ],
+                    "osMap": [
+                        "macOS 10.15",
+                        "macOS 11"
+                    ],
+                    "links": [
+                        {
+                            "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12_GM_seed/Xcode_12_GM_seed.xip",
+                            "active": true
+                        }
+                    ],
+                    "hashes": {
+                        "sha1": "1b69c0f8e7b35c1456211143bbb06c671fcfaaec"
+                    },
+                    "size": 11209653545
+                }
+            ]
+        }
+    ],
+    "releaseNotes": "https://developer.apple.com/documentation/xcode-release-notes/xcode-12-release-notes/",
+    "securityNotes": "https://support.apple.com/HT211848",
+    "deviceMap": [
+        "Xcode"
+    ],
+    "osMap": [
+        "macOS 10.15",
+        "macOS 11"
+    ],
+    "sdks": [
+        {
+            "osStr": "iOS",
+            "version": "14.0",
+            "build": "18A390"
+        },
+        {
+            "osStr": "macOS",
+            "version": "10.15.6",
+            "build": "19G68"
+        },
+        {
+            "osStr": "tvOS",
+            "version": "14.0",
+            "build": "18J390"
+        },
+        {
+            "osStr": "watchOS",
+            "version": "7.0",
+            "build": "18R382"
+        }
+    ],
+    "sources": [
+        {
+            "type": "xip",
+            "deviceMap": [
+                "Xcode"
+            ],
+            "osMap": [
+                "macOS 10.15",
+                "macOS 11"
+            ],
+            "links": [
+                {
+                    "url": "https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12/Xcode_12.xip",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "sha1": "1b69c0f8e7b35c1456211143bbb06c671fcfaaec"
+            },
+            "size": 11209653545
+        }
+    ]
+}

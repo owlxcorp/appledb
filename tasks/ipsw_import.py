@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 import packaging.version
 import remotezip
 import requests
+from link_info import needs_apple_auth, source_has_link, apple_auth_token
 from sort_os_files import sort_os_file
 from update_links import update_links
 
@@ -29,15 +30,12 @@ OS_MAP = [
     ("iPad", "iPadOS"),
     ("AudioAccessory", "audioOS"),
     ("AppleTV", "tvOS"),
-    ("MacBook", "macOS"),
+    ("Mac", "macOS"),
     ("Watch", "watchOS"),
     ("iBridge", "bridgeOS"),
 ]
 
 SESSION = requests.Session()
-
-# Domains that need auth
-needs_auth = ["adcdownload.apple.com", "download.developer.apple.com", "developer.apple.com"]
 
 VARIANTS = {}
 
@@ -89,10 +87,7 @@ def create_file(os_str, build, recommended_version=None, version=None, released=
     kern_version = kern_version.group()
 
     major_version = ".".join((version or recommended_version).split(".")[:1]) + ".x"  # type: ignore
-    if os_str == "bridgeOS":
-        version_dir = f"{kern_version}x"
-    else:
-        version_dir = f"{kern_version}x - {major_version}"
+    version_dir = f"{kern_version}x - {major_version}"
 
     db_file = Path(f"osFiles/{os_str}/{version_dir}/{build}.json")
     if db_file.exists():
@@ -158,12 +153,18 @@ def import_ipsw(
     local_path = LOCAL_IPSW_PATH / Path(Path(ipsw_url).name)
     local_available = USE_LOCAL_IF_FOUND and local_path.exists()
 
-    if urlparse(ipsw_url).hostname in needs_auth and not local_available:
-        raise RuntimeError(f"IPSW URL {ipsw_url} requires authentication, but no local file found")
+    if urlparse(ipsw_url).hostname in needs_apple_auth and not (local_available or apple_auth_token):
+        raise RuntimeError(f"IPSW URL {ipsw_url} requires authentication, but no local file or auth token found")
 
     # Check if a BuildManifest.plist exists at the same parent directory as the IPSW
+    headers = {}
+    if urlparse(ipsw_url).hostname in needs_apple_auth and not local_available:
+        ipsw_url = ipsw_url.replace('developer.apple.com/services-account/download?path=', 'download.developer.apple.com')
+        headers = {
+            "cookie": f"ADCDownloadAuth={apple_auth_token}"
+        }
     build_manifest_url = ipsw_url.rsplit("/", 1)[0] + "/BuildManifest.plist"
-    build_manifest_response = SESSION.get(build_manifest_url)
+    build_manifest_response = SESSION.get(build_manifest_url, headers=headers)
 
     build_manifest = None
 
@@ -178,7 +179,7 @@ def import_ipsw(
     ipsw = None
     if not build_manifest:
         # Get it via remotezip
-        ipsw = zipfile.ZipFile(local_path) if local_available else remotezip.RemoteZip(ipsw_url)
+        ipsw = zipfile.ZipFile(local_path) if local_available else remotezip.RemoteZip(ipsw_url, headers=headers)
         print(f"\tGetting BuildManifest.plist {'from local file' if local_available else 'via remotezip'}")
 
         # Commented out because IPSWs should always have the BuildManifest in the root
@@ -219,8 +220,8 @@ def import_ipsw(
     # assert restore["ProductVersion"] == version
     # assert restore["SupportedProductTypes"] == supported_devices
 
-    supported_devices = [i for i in supported_devices if i not in ["iProd99,1"]]
-    build_supported_devices = [i for i in build_supported_devices if i not in ["iProd99,1"]]
+    supported_devices = [i for i in supported_devices if i not in ["iProd99,1", "iFPGA"]]
+    build_supported_devices = [i for i in build_supported_devices if i not in ["iProd99,1", "iFPGA"]]
 
     if not os_str:
         for product_prefix, os_str in OS_MAP:
@@ -241,19 +242,13 @@ def import_ipsw(
 
     db_data.setdefault("deviceMap", []).extend(augment_with_keys(build_supported_devices))
 
-    if os_str == "tvOS": 
-        if db_data["version"].startswith("16."):
-            # Ensure supported_devices has these devices
-            db_data["deviceMap"] = list(set(db_data["deviceMap"] + augment_with_keys(["AppleTV6,2", "AppleTV11,1", "AppleTV14,1"])))
-        elif db_data["version"].startswith("17."):
-            # Keeping this separate in case Apple launches a new Apple TV during the tvOS 17 lifecycle
-            # Ensure supported_devices has these devices
-            db_data["deviceMap"] = list(set(db_data["deviceMap"] + augment_with_keys(["AppleTV6,2", "AppleTV11,1", "AppleTV14,1"])))
-    elif os_str == 'iOS' or os_str == 'iPadOS':
+    if os_str in ('audioOS', 'iOS', 'iPadOS', 'tvOS', 'watchOS'):
         db_data['appledbWebImage'] = {
             'id': os_str.lower() + db_data["version"].split(".", 1)[0],
             'align': 'left'
         }
+        if os_str == "iPadOS" and packaging.version.parse(recommended_version.split(" ")[0]) < packaging.version.parse("16.0"):
+            db_data['appledbWebImage']['id'] = 'ios' + db_data["version"].split(".", 1)[0]
     elif os_str == 'macOS':
         os_image_version_map = {
             '11': 'Big Sur',
@@ -267,18 +262,20 @@ def import_ipsw(
                 'id': os_image_version_map[os_version_prefix],
                 'align': 'left'
             }
+    elif os_str == "audioOS" and packaging.version.parse(recommended_version) >= packaging.version.parse("13.4"):
+        # Apple renamed it, but we still use the old name
+        os_str = "HomePod Software"
 
     found_source = False
     for source in db_data.setdefault("sources", []):
-        for link in source.get("links", []):
-            if link["url"] == ipsw_url:
-                print("\tURL already exists in sources")
-                found_source = True
-                source.setdefault("deviceMap", []).extend(augment_with_keys(supported_devices))
+        if source_has_link(source, ipsw_url):
+            print("\tURL already exists in sources")
+            found_source = True
+            source.setdefault("deviceMap", []).extend(augment_with_keys(supported_devices))
 
     if not found_source:
         print("\tAdding new source")
-        source = {"deviceMap": augment_with_keys(supported_devices), "type": "ipsw", "links": [{"url": ipsw_url}]}
+        source = {"deviceMap": augment_with_keys(supported_devices), "type": "ipsw", "links": [{"url": ipsw_url, "active": True}]}
 
         db_data["sources"].append(source)
 
@@ -290,7 +287,7 @@ def import_ipsw(
         # Save the network access for the end, that way we can run it once per file instead of once per ipsw
         # and we can use threads to speed it up
         update_links([db_file], False)
-    print(f"\tSanity check the file{', run update_links.py, ' if not use_network else ''}and then commit it\n")
+    print(f"\tSanity check the file{', run update_links.py, ' if not use_network else ' '}and then commit it\n")
     return db_file
 
 
@@ -337,6 +334,8 @@ if __name__ == "__main__":
         try:
             while True:
                 url = input("Enter IPSW URL: ").strip()
+                if not url:
+                    break
                 import_ipsw(url)
         except KeyboardInterrupt:
             pass

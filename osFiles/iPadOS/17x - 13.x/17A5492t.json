@@ -9,6 +9,16 @@
         "align": "left"
     },
     "deviceMap": [
+        "iPad5,2",
+        "iPad5,3",
+        "iPad6,3",
+        "iPad6,4",
+        "iPad6,11",
+        "iPad6,12",
+        "iPad7,2",
+        "iPad7,3",
+        "iPad7,4",
+        "iPad7,5",
         "iPad8,1",
         "iPad8,2",
         "iPad8,3",
@@ -38,8 +48,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Fall_2018_13.0_17A5492t_Restore.ipsw",
-                    "preferred": true,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {
@@ -59,8 +68,7 @@
             "links": [
                 {
                     "url": "https://developer.apple.com/services-account/download?path=/WWDC_2019/iOS_and_tvOS_IPSWs_for_Jun_3_2019_Seed/iPad_Spring_2019_13.0_17A5492t_Restore.ipsw",
-                    "preferred": false,
-                    "active": true
+                    "active": false
                 }
             ],
             "hashes": {

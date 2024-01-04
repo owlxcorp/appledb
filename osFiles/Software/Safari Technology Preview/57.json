@@ -1,6 +1,7 @@
 {
     "osStr": "Safari Technology Preview",
     "version": "57",
+    "safariVersion": "11.2",
     "released": "2018-05-30",
     "beta": true,
     "releaseNotes": "https://developer.apple.com/documentation/safari-technology-preview-release-notes/stp-release-57",
@@ -13,6 +14,25 @@
     ],
     "sources": [
         {
+            "type": "dmg",
+            "deviceMap": [
+                "Safari Technology Preview"
+            ],
+            "osMap": [
+                "macOS 10.13"
+            ],
+            "links": [
+                {
+                    "url": "https://secure-appldnld.apple.com/STP/091-86596-20180530-52c8aed3-a343-4dc1-ae7e-f86b389f9fef/SafariTechnologyPreview.dmg",
+                    "active": true
+                }
+            ],
+            "hashes": {
+                "md5": "96266fc4ef42295b788ab0054a4592d3"
+            },
+            "size": 72887936
+        },
+        {
             "type": "pkg",
             "deviceMap": [
                 "Safari Technology Preview"
@@ -23,7 +43,6 @@
             "links": [
                 {
                     "url": "http://swcdn.apple.com/content/downloads/63/55/041-91645-A_E7X9PCLJH1/98jktl0acdpqb355m8r2a24vglzxf1firz/SafariTechPreview.pkg",
-                    "preferred": true,
                     "active": true
                 }
             ],
@@ -40,7 +59,6 @@
             "links": [
                 {
                     "url": "http://swcdn.apple.com/content/downloads/54/48/041-91651-A_4514440GXT/zm3yme00lrxqg4jbylfwbtikx3ozan3xxc/SafariTechPreview.pkg",
-                    "preferred": true,
                     "active": true
                 }
             ],
